@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', 'san-serif'
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    margin-bottom: 1000px;
+}
+
+
+/*NAVBAR START*/
+
+.navbar--logo {
+    height: 90px;
+    border-radius: 50%;
+    padding: 5px 50px 0px;
+}
+
+.navbar {
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+.navbar ul {
+    list-style: none;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin-right: 50px;
+    font-size: 25px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar ul li a:hover {
+    color: #FF8533;
+}
+
+.navbar--list>li {
+    margin-left: 0px;
+}
+
+.cart {
+    cursor: pointer;
+}
+
+.cart:hover {
+    color: #FF8533;
+}
+
+
+/*NAVBAR ENDS*/
+
+
+/*SLIDER START*/
+
+.slider--container {
+    margin-top: 130px;
+}
+
+.slide--description {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slide--description>span {
+    color: #FF8533;
+}
+
+.slider--image {
+    max-width: 600px;
+}
+
+
+/*SLIDER ENDS*/
+
+
+/*FORM START*/
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.cancel--button {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    top: -45rem;
+    left: 113rem;
+    z-index: 1111;
+}
+
+.form {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.75);
+    width: 400px;
+}
+
+.form--input {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+.form--submit {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #639;
+    border: none;
+    cursor: pointer;
+}
+
+
+/*FORM END */
